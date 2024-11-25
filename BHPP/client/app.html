@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>Banglore Home Price Prediction</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="app.js"></script>
-	<link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
 <div class="img"></div>
@@ -47,7 +47,7 @@
         <option>Rajaji Nagar</option>
   </select>
 </div>
-	<button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+	<button class="submit" onclick="onClickedEstimatePrice(event)" type="button">Estimate Price</button>
 	<div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
 </body>
 </html>
